@@ -1,0 +1,88 @@
+﻿[
+  {
+    "ID": "AVD-AWS-0107",
+    "Title": "Security groups should not allow unrestricted ingress to SSH or RDP from any IP address.",
+    "Description": "Security groups provide stateful filtering of ingress and egress network traffic to AWS\nresources. It is recommended that no security group allows unrestricted ingress access to\nremote server administration ports, such as SSH to port 22 and RDP to port 3389.\n",
+    "Severity": "HIGH",
+    "CVSSv3": "N/A",
+    "References": [
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules-reference.html",
+      "https://docs.aws.amazon.com/securityhub/latest/userguide/ec2-controls.html#ec2-13",
+      "https://docs.aws.amazon.com/securityhub/latest/userguide/ec2-controls.html#ec2-14",
+      "https://avd.aquasec.com/misconfig/avd-aws-0107"
+    ],
+    "Resource": "SecurityGroupAZ1",
+    "Provider": "AWS"
+  },
+  {
+    "ID": "AVD-AWS-0107",
+    "Title": "Security groups should not allow unrestricted ingress to SSH or RDP from any IP address.",
+    "Description": "Security groups provide stateful filtering of ingress and egress network traffic to AWS\nresources. It is recommended that no security group allows unrestricted ingress access to\nremote server administration ports, such as SSH to port 22 and RDP to port 3389.\n",
+    "Severity": "HIGH",
+    "CVSSv3": "N/A",
+    "References": [
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules-reference.html",
+      "https://docs.aws.amazon.com/securityhub/latest/userguide/ec2-controls.html#ec2-13",
+      "https://docs.aws.amazon.com/securityhub/latest/userguide/ec2-controls.html#ec2-14",
+      "https://avd.aquasec.com/misconfig/avd-aws-0107"
+    ],
+    "Resource": "SecurityGroupAZ1",
+    "Provider": "AWS"
+  },
+  {
+    "ID": "AVD-AWS-0107",
+    "Title": "Security groups should not allow unrestricted ingress to SSH or RDP from any IP address.",
+    "Description": "Security groups provide stateful filtering of ingress and egress network traffic to AWS\nresources. It is recommended that no security group allows unrestricted ingress access to\nremote server administration ports, such as SSH to port 22 and RDP to port 3389.\n",
+    "Severity": "HIGH",
+    "CVSSv3": "N/A",
+    "References": [
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules-reference.html",
+      "https://docs.aws.amazon.com/securityhub/latest/userguide/ec2-controls.html#ec2-13",
+      "https://docs.aws.amazon.com/securityhub/latest/userguide/ec2-controls.html#ec2-14",
+      "https://avd.aquasec.com/misconfig/avd-aws-0107"
+    ],
+    "Resource": "SecurityGroupAZ2",
+    "Provider": "AWS"
+  },
+  {
+    "ID": "AVD-AWS-0107",
+    "Title": "Security groups should not allow unrestricted ingress to SSH or RDP from any IP address.",
+    "Description": "Security groups provide stateful filtering of ingress and egress network traffic to AWS\nresources. It is recommended that no security group allows unrestricted ingress access to\nremote server administration ports, such as SSH to port 22 and RDP to port 3389.\n",
+    "Severity": "HIGH",
+    "CVSSv3": "N/A",
+    "References": [
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/security-group-rules-reference.html",
+      "https://docs.aws.amazon.com/securityhub/latest/userguide/ec2-controls.html#ec2-13",
+      "https://docs.aws.amazon.com/securityhub/latest/userguide/ec2-controls.html#ec2-14",
+      "https://avd.aquasec.com/misconfig/avd-aws-0107"
+    ],
+    "Resource": "SecurityGroupAZ2",
+    "Provider": "AWS"
+  },
+  {
+    "ID": "aws-vpc-no-public-ingress-sgr",
+    "Title": "Instances in a subnet should not receive a public IP address by default.",
+    "Description": "You should limit the provision of public IP addresses for resources. Resources should not be exposed on the public internet, but should have access limited to consumers required for the function of your application.\n",
+    "Severity": "HIGH",
+    "CVSSv3": "N/A",
+    "References": [
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-instance-addressing.html#concepts-public-addresses",
+      "https://avd.aquasec.com/misconfig/aws-vpc-no-public-ingress-sgr"
+    ],
+    "Resource": "PublicSubnet1",
+    "Provider": "AWS"
+  },
+  {
+    "ID": "aws-vpc-no-public-ingress-sgr",
+    "Title": "Instances in a subnet should not receive a public IP address by default.",
+    "Description": "You should limit the provision of public IP addresses for resources. Resources should not be exposed on the public internet, but should have access limited to consumers required for the function of your application.\n",
+    "Severity": "HIGH",
+    "CVSSv3": "N/A",
+    "References": [
+      "https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-instance-addressing.html#concepts-public-addresses",
+      "https://avd.aquasec.com/misconfig/aws-vpc-no-public-ingress-sgr"
+    ],
+    "Resource": "PublicSubnet2",
+    "Provider": "AWS"
+  }
+]
